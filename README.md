@@ -1,4 +1,5 @@
 # Ergo-learning-app
+still working on it
 Test your knowledge about Ergo, a blockchain platform with advanced smart contract capabilities. 
 This interactive quiz covers various aspects of Ergo, including its technology, layers, consensus mechanism, and economic concepts. 
 Challenge yourself and see how well you understand Ergo's innovative features and design principles. 
