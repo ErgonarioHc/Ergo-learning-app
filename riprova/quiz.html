@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergo Learning App</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('back.jpg');
+            background-size: cover;
+        }
+        #quizContainer {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .answerOption {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .answerOption:hover {
+            background-color: #45a049;
+        }
+        #resultText {
+        font-size: 29px; /* Cambia la dimensione del testo come preferisci */
+        text-align: center; /* Aggiungi allineamento al centro */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Ergo Learning App!</h1>
+    <button id="startButton">Start Quiz</button>
+    <div id="quizContainer" style="display: none;">
+        <p id="questionText"></p>
+        <div id="answerOptions"></div>
+        <p id="feedbackText"></p>
+    </div>
+    <p id="resultText"></p>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+
